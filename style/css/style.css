@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: #2e2e42;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: rgba(0, 0, 0, .225);
+    padding: 30px;
+    border-bottom: 1px solid #998989;
+}
+header .menu{
+    text-align: center;
+}
+header .menu a{
+    font-size: 20px;
+    margin: 0rem 1rem;
+    color: white;
+}
+a[href^="https"]::before {
+    content: "🔗 ";
+  }
+  
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+.rodape a i .iconify{margin-top: 10%;}
+.rodape{text-align: center;}
+.rodape a{font-size: 1.5em; color: rgba(255,255,255, 0.5); margin-right: 2%;}
+.rodape a:hover{ color: rgb(255, 255, 255)}
+/* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES (NESSE O ULTIMO ELEMENTO FILHO)*/
+.rodape a:last-child{margin-right: 0;}

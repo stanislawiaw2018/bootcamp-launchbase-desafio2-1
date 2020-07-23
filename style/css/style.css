@@ -33,15 +33,15 @@ header .menu a{
     margin: 0rem 1rem;
     color: white;
 }
-a[href^="https"]::before {
+.menu a[href^="https"]::before {
     content: "🔗 ";
   }
   
-a[href^="mailto"]::before {
+.menu a[href^="mailto"]::before {
     content: "📧 ";
 }
 
-a[href^="tel"]::before {
+.menu a[href^="tel"]::before {
     content: "📞 ";
 }
 

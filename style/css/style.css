@@ -10,10 +10,20 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+body .conteiner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 75vh 10vh;
+    
+}
+
 header{
+    display: grid;
+    align-content: center;
     background: rgba(0, 0, 0, .225);
     padding: 30px;
-    border-bottom: 1px solid #998989;
+    border-bottom: 2px solid #998989;
+
 }
 header .menu{
     text-align: center;
@@ -34,8 +44,17 @@ a[href^="mailto"]::before {
 a[href^="tel"]::before {
     content: "📞 ";
 }
-.rodape a i .iconify{margin-top: 10%;}
-.rodape{text-align: center;}
+
+main{
+
+}
+
+footer{
+    
+    background: rgba(0, 0, 0, .225);
+    border-top: 2px solid #998989;
+}
+.rodape{display: flex; align-items: center; justify-content: center;}
 .rodape a{font-size: 1.5em; color: rgba(255,255,255, 0.5); margin-right: 2%;}
 .rodape a:hover{ color: rgb(255, 255, 255)}
 /* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES (NESSE O ULTIMO ELEMENTO FILHO)*/

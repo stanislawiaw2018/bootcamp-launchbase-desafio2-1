@@ -44,9 +44,43 @@ header .menu a{
 .menu a[href^="tel"]::before {
     content: "📞 ";
 }
+.conteiner .corpo{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
 
-main{
+main .logo-corpo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 8%;
+    font-size: 2em;
+    color: white;
+}
 
+.corpo .logo-corpo img{
+    border-radius: 50%;
+}
+
+
+.corpo .mensagem{
+    width: 40%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+.corpo .corpo-mensagem p{
+   margin: 30px 20px 30px;
+   text-align: justify;
+   /* letter-spacing: 1px; */
+}
+
+.corpo .corpo-mensagem li{
+    margin-left: 20px;
+    list-style: none;
 }
 
 footer{

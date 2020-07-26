@@ -1,37 +1,50 @@
+/*RESET*/
 *{
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
+
 body{
-    background: #2e2e42;
+    background: #111114;
     font-family: 'Roboto', sans-serif;
+   
 }
 
 body .conteiner{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15vh 75vh 10vh;
+    background: url(../image/trofeu.png) no-repeat;
+    background-position: 45vw 10vh;
+    background-size: 700px;
     
 }
+/*=============================================================================
+MENU
+===============================================================================*/
 
 header{
     display: grid;
     align-content: center;
+    justify-content: center;
     background: rgba(0, 0, 0, .225);
     padding: 30px;
     border-bottom: 2px solid #998989;
 
 }
-header .menu{
-    text-align: center;
-}
+
 header .menu a{
+    cursor: pointer;
     font-size: 20px;
     margin: 0rem 1rem;
-    color: white;
+    color: rgba(255,255,255, 0.5);
+}
+header .menu a:hover{
+    color: rgb(255, 255, 255); 
 }
 .menu a[href^="https"]::before {
     content: "🔗 ";
@@ -44,8 +57,13 @@ header .menu a{
 .menu a[href^="tel"]::before {
     content: "📞 ";
 }
+
+/*=============================================================================
+CORPO
+===============================================================================*/
+
 .conteiner .corpo{
-    
+    overflow: auto;/*Permite o scroll do corpo caso os elementos excedam o espaço*/
     display: flex;
     justify-content: space-between;
     
@@ -71,20 +89,26 @@ main .logo-corpo{
     display: flex;
     flex-direction: column;
     margin-right: 10%;
+    color: white;
 }
 .corpo .corpo-mensagem p{
    margin: 30px 20px 30px;
    text-align: justify;
+   font-size: 14px;
    /* letter-spacing: 1px; */
 }
 
 .corpo .corpo-mensagem li{
     margin-left: 20px;
     list-style: none;
+   font-size: 14px;
+
 }
+/*=============================================================================
+RODAPE
+===============================================================================*/
 
 footer{
-    
     background: rgba(0, 0, 0, .225);
     border-top: 2px solid #998989;
 }

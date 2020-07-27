@@ -1,4 +1,4 @@
-<h1 align="center>
+<h1 align="center">
 
 :computer: **DESAFIO 2-1**: Primeiro HTML
 
@@ -7,10 +7,17 @@
 <h1 align="center">
 <img alt="logo LunchBase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px">
 
-<h4 style="color:black;font-size:12px;">
+<h4 align="center" style="color:black;font-size:12px;">
 “Sua única limitação é você mesmo!”
 </h4>
 </h1>
+
+<h2 align="center" style="color:black"> Layout do Desafio Concluído
+<h2>
+
+<h2 align="center">
+<img alt="layout demonstrativo" src="style/image/Desafio2-1.png" width="400px">
+</h2>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/antonio-stanislaw-dos-santos-47a077106/">
@@ -22,6 +29,7 @@
 </p>
 
 <h5 align="center">
+
 <p style="color:black">ÍNDICE</p>
 
 [Sobre o desafio](#-Sobre-o-desafio) | [Tecnologias utilizadas](#-Tecnologias-Utilizadas) | [Como baixar o projeto](#-Como-baixar-o-projeto) | [Licença](#-Licença) | [Autor](#-Autor)
@@ -63,7 +71,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## ⌨️ Autor
 
-<img style="border-radius: 50%" src="https://avatars1.githubusercontent.com/u/54186220?s=460&u=6095908872ed5e96a473f85605949ad1b2efa98f&v=4" width="100px;" alt="Perfil-autor"/><br>
+<img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/54186220?s=460&u=6095908872ed5e96a473f85605949ad1b2efa98f&v=4" width="100px;" alt="Perfil-autor"/><br>
 <sub><b>Antonio Stanislaw</b></sub>
 
 :rocket: Exercício resolvido com muita dedicação e esforço por [Antonio Stanislaw](https://www.linkedin.com/in/antonio-stanislaw-dos-santos-47a077106/) :man_technologist:

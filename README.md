@@ -1,4 +1,4 @@
-<h1 align="center>
+<h1 align="center">
 
 :computer: **DESAFIO 2-1**: Primeiro HTML
 
@@ -6,11 +6,10 @@
 
 <h1 align="center">
 <img alt="logo LunchBase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px">
-
-<h4 style="color:black;font-size:12px;">
+</h1>
+<h4 aling="center" style="color:black">   
 “Sua única limitação é você mesmo!”
 </h4>
-</h1>
 
 <p align="center">
     <a href="https://www.linkedin.com/in/antonio-stanislaw-dos-santos-47a077106/">
@@ -22,6 +21,7 @@
 </p>
 
 <h5 align="center">
+    
 <p style="color:black">ÍNDICE</p>
 
 [Sobre o desafio](#-Sobre-o-desafio) | [Tecnologias utilizadas](#-Tecnologias-Utilizadas) | [Como baixar o projeto](#-Como-baixar-o-projeto) | [Licença](#-Licença) | [Autor](#-Autor)

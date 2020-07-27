@@ -6,17 +6,19 @@
 
 <h1 align="center">
 <img alt="logo LunchBase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px">
-
-<h4 align="center" style="color:black;font-size:12px;">
-“Sua única limitação é você mesmo!”
-</h4>
 </h1>
+
+<h4 align="center"> 
+    
+“Sua única limitação é você mesmo!”
+
+</h4>
 
 <h2 align="center" style="color:black"> Layout do Desafio Concluído
 <h2>
 
 <h2 align="center">
-<img alt="layout demonstrativo" src="style/image/Desafio2-1.png" width="400px">
+<img alt="layout demonstrativo" src="style/image/Desafio2-1.png" width="600px">
 </h2>
 
 <p align="center">
@@ -29,7 +31,6 @@
 </p>
 
 <h5 align="center">
-
 <p style="color:black">ÍNDICE</p>
 
 [Sobre o desafio](#-Sobre-o-desafio) | [Tecnologias utilizadas](#-Tecnologias-Utilizadas) | [Como baixar o projeto](#-Como-baixar-o-projeto) | [Licença](#-Licença) | [Autor](#-Autor)
@@ -46,12 +47,19 @@ Desafio feito no Bootcamp launchBase, que consiste na criação de layout de pag
 - O header precisa ter um espaçamento interno de 30px em todas as direções;
 - Os links devem ter um espaçamento de 30px entre si.
 
+
+Nesse desafio foi implementado alguns conceitos não relacionados nos critérios, por exemplo:
+
+- GRIDs e Flexbox;
+- Estrutura semântica do HTML5 (Header, Main, Footer);
+- JavaScript
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML;
-- CSS;
+- HTML5;
+- CSS3;
+- JavaScript
 
 ## ⏬ Como baixar o projeto
 - É necessário ter o git instalado em sua máquina

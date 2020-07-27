@@ -7,8 +7,10 @@
 <h1 align="center">
 <img alt="logo LunchBase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px">
 </h1>
-<h4 aling="center" style="color:black">   
+<h4 aling="center" style="color:black"> 
+    
 “Sua única limitação é você mesmo!”
+
 </h4>
 
 <p align="center">

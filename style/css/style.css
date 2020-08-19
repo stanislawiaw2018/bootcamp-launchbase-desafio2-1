@@ -30,12 +30,13 @@ MENU
 
 header{
     display: grid;
-    grid-area: footer;
+    grid-area: header;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .225);
+    background: rgba(0, 0, 0, .9);
     padding: 30px;
     border-bottom: 2px solid #998989;
+    z-index: 1;
 
 }
 
@@ -140,7 +141,7 @@ RODAPE
 footer{
     display: grid;
     grid-area: footer;
-    background: rgba(0, 0, 0, .225);
+    background: rgba(0, 0, 0, .9);
     border-top: 2px solid #998989;
 }
 .rodape{display: flex; align-items: center; justify-content: center;}
@@ -155,8 +156,9 @@ MEDIA QUERIES E BREAKPOINTS
 ==============================================================*/
 
 /*===============================================================
- smartphones, portrait iPhone, portrait 320X768 phones (Android) 
+ smartphones, portrait iPhone, portrait 480x320 phones (Android) 
  ===============================================================*/
+
 @media (min-width:300px) and (max-width:768px) { 
     /*MENU*/
     .conteiner .header .menu{
@@ -180,15 +182,19 @@ MEDIA QUERIES E BREAKPOINTS
        
     }
     .itens-menu{
-        display: grid;
+        /* align-content: center; */
+        /* justify-content: center; */
+        position: relative;
+        top: 0;
         right: 0;
-        padding-top: 130px;
+        margin-top: 18%;
+        padding: 10% 0;
         margin-right: -30px;
         width: 200px;
-        height: auto;
+        /* min-height: 100vh; */
         background-color: rgba(255, 255, 255, 0.671);
-        overflow-x: hidden;
-        overflow-y: hidden;
+        /* overflow-x: hidden; */
+        /* overflow-y: auto; */
         transition: all ease .8s;
         z-index: 10;
     }
@@ -211,7 +217,7 @@ MEDIA QUERIES E BREAKPOINTS
     .itens-menu li a{ 
         width: 16%; 
         padding: 2%; 
-        color: black; 
+        color: red; 
         margin: 0.3% 0.3%
     }
     .conteiner .header .logo {
